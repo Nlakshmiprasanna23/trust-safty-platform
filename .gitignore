@@ -37,3 +37,7 @@ coverage/
 # OS
 # =========================
 .DS_Store
+
+# Large datasets
+backend/datasets/risk/ieee_cis/*.csv
+backend/datasets/risk/processed/*.csv
