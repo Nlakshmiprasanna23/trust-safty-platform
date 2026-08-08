@@ -1,0 +1,39 @@
+﻿# =========================
+# Frontend
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+# =========================
+# Python / Backend
+# =========================
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/.pytest_cache/
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+backend/.env
+# =========================
+# Databases
+# =========================
+*.db
+# =========================
+# ML models
+# =========================
+*.joblib
+# =========================
+# Coverage
+# =========================
+coverage/
+.pytest_cache/
+# =========================
+# OS
+# =========================
+.DS_Store
